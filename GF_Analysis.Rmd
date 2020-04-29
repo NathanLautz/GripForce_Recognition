@@ -1,5 +1,5 @@
 ---
-title: "GF_Analysis"
+title: "GF_Extraction"
 author: "Colin T. Annand"
 date: "3/31/2020"
 output: html_document
@@ -103,6 +103,7 @@ head(Sub_List[[1]][1:4])
 mean(Sub_List[[1]]$rs_left)
 mean(Sub_List[[1]]$rs_right)
 
+<<<<<<< HEAD
 #list of resampled files (getting them from Nate's hard drive;  Maybe want to edit filepath to go to data stored on GitHub - not sure how to do this):
 rsFiles <- list.files("C:/Users/Jessica/Desktop/Nate/GitHub_repositories/GripForce_Recognition/SubjDATA", recursive = T)
 head(rsFiles, 20)
@@ -163,3 +164,7 @@ i + 1
 ```
 
 Note:  adply() w/ .margins set to 1 (see ddply() description) may be useful later for trying to compare means in some continuous fashion
+=======
+```
+
+>>>>>>> c142d8f66576af28ca1cb5f8e32c660c402568eb
